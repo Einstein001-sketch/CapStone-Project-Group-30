@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headbox{
+    background-color:darkblue;
+    width: 100%;
+  
+}
+
+.headbox img {
+    width: 60px;
+    display: block;
+    margin-left: 120px;
+}
+@media (max-width: 768px){
+  .headbox{
+    text-align: center;
+  }
+}
+@media (max-width: 1024px){
+  .headbox{
+    text-align: center;
+  }
+}
+@media (max-width: 768px){
+  .headbox img{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1024px){
+  .headbox img{
+    margin: 0 auto;
+  }
+}
+.hero-box{
+    background-color:darkblue;
+    height: auto;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 12px;
+    line-height: 1.7;
+    margin: 0 auto;
+    }
+  @media(max-width: 768px){
+    .hero-box{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      
+    }
+  }
+
+.hero-img img{
+    background:transparent;
+}
+h1{
+    font-weight: bold;
+}
+.ex-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    line-height: 1.6;
+    font-weight: bold;
+    padding: 10px 16px;
+    margin-top: 16px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.cont-btn{
+    background-color:darkblue;
+    color: white;
+    border: 1px solid white;
+    line-height: 1.6;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 16px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
