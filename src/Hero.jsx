@@ -3,7 +3,7 @@ import hero from "./assets/hero.png";
 const Hero = () => {
   return (
     <div className="hero-box">
-        <div>
+        <div className="my-hero-text">
          <h1>Explore Our Solar<br/> System Through Data</h1><br />
         <p>
             Understand the planet not by name but by measurable<br/>
@@ -14,7 +14,7 @@ const Hero = () => {
         <button className='cont-btn'><a href="">Contact Us</a></button>
         </div>
         <div className="hero-img">
-            <img src={hero} alt="" />
+            <img src={hero} alt="my-hero-img" />
         </div>
         
     </div>
