@@ -177,3 +177,43 @@ h1{
     margin-bottom: 12px;
   }
 }
+.image-box{
+    width: 100%;
+    text-align: center;
+    background-color:aliceblue;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+   gap: 24px;
+}
+.image-box h2{
+    margin-bottom: 6px;
+    color: darkblue;
+}
+image-box p{
+    margin-bottom: 12px;
+}
+.image-1{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+.planets-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 12px;
+}
+@media(max-width: 768px){
+    .planets-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .my-planet:last-child{
+        grid-column: 1/3;
+        justify-self: center;
+    }
+}
+.my-planet img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
