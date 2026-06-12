@@ -1,0 +1,111 @@
+function planetTable() {
+  return (
+    <div className="container">
+        <h1>Planetary Facts at a Glance</h1>
+        <p>Below is a comparative table major planets in our solar system. The data highlights key physical
+            properties used by astronomers and researchers worldwide.
+        </p>
+        <h3>Data about the planets of our solar system (Planetary facts taken from NASA)</h3>
+        <div className="table-wrapper">
+            <table>
+            <thead>
+                <tr>
+                    <th colSpan="2"></th>
+                    <th>Name</th>
+                    <th>Mass (10 24kg)</th>
+                    <th>Diameter (km)</th>
+                    <th>Density (kg/m3)</th>
+                    <th>Gravity (m/s2)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowSpan="4" colSpan="2" className="group">Terrestial Planets</td>
+                    <td>Mercury</td>
+                    <td>0.330</td>
+                    <td>4,879</td>
+                    <td>5427</td>
+                    <td>3.7</td>
+                </tr>
+
+                <tr>
+                    <td>Venus</td>
+                    <td>4.87</td>
+                    <td>12,104</td>
+                    <td>5243</td>
+                    <td>8.9</td>
+                </tr>
+
+                <tr>
+                    <td>Earth</td>
+                    <td>5.97</td>
+                    <td>12,756</td>
+                    <td>5514</td>
+                    <td>9.8</td>
+                </tr>
+
+                <tr>
+                    <td>Mars</td>
+                    <td>0.642</td>
+                    <td>6,792</td>
+                    <td>3933</td>
+                    <td>3.7</td>
+                </tr>
+
+                <tr>
+                    <td rowSpan="4" className="group">Jovian<br/>Planets</td>
+                    <td rowSpan="2" className="sub-group"> Gas Giants</td>
+
+                    <td>Jupiter</td>
+                    <td>1898</td>
+                    <td>142,984</td>
+                    <td>1326</td>
+                    <td>23.1</td>
+                </tr>
+
+                <tr>
+                    <td>Saturn</td>
+                    <td>568</td>
+                    <td>120,536</td>
+                    <td>687</td>
+                    <td>9.0</td>
+                </tr>
+
+                <tr>
+                    <td rowSpan="2" className="sub-group">Ice Giants</td>
+
+                    <td>Uranus</td>
+                    <td>86.8</td>
+                    <td>51,118</td>
+                    <td>1271</td>
+                    <td>8.7</td>
+                </tr>
+
+                <tr>
+                    <td>Neptunes</td>
+                    <td>102</td>
+                    <td>49,528</td>
+                    <td>1638</td>
+                    <td>11.0</td>
+                </tr>
+
+                <tr>
+                    <td colSpan="2" className="group">Dwarf Planets</td>
+
+                    <td>Pluto</td>
+                    <td>0.0146</td>
+                    <td>2,377</td>
+                    <td>2095</td>
+                    <td>0.7</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        
+    </div> 
+
+ )
+};
+
+export default planetTable;
