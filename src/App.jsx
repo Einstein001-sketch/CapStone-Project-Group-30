@@ -3,6 +3,7 @@ import Header from './Header';
 import Hero from './Hero';
 import Videosec from './Videosec';
 import Imagesec from './Imagesec.jsx';
+import Table from './Table.jsx';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
     <Hero/>
     <Videosec/>
     <Imagesec/>
+    <Table/>
     </>
   )
 }
