@@ -1,15 +1,21 @@
+body,
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 main {
   flex: 1;
 }
 
 footer {
-  height: 180px;
+  height: 307px;
   margin-top: auto;
   background-color: #051540;
 }
 
 h5 {
-  margin-top: 25px;
   font-family: sans-serif;
   color: white;
   text-align: start;
@@ -25,7 +31,6 @@ h5 {
 }
 
 .Footer-Links ul li {
-  margin-top: 10px;
   margin-left: 0.9rem;
   list-style: none;
   text-decoration: none;
@@ -56,8 +61,6 @@ h5 {
 
 @media (min-width: 1024px) {
   footer h5,
-  .bottom-footer p,
-  footer {
   .bottom-footer p {
     margin-left: 3.5rem;
   }
@@ -67,8 +70,6 @@ h5 {
   }
 
   .left-p {
-    padding-right: 3rem;
-    text-align: start;
     padding-right: 3.5rem;
   }
 }

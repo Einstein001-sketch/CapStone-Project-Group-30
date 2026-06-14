@@ -4,12 +4,8 @@ export default function Footer() {
   return (
     <footer>
       <h5>
-        Group 30, a team of frontend developers from the TSA Academy Phoenix
-        Cohort names (Mr Diri,Mrs Naya,Mrs Toul,Mr), developed this Capstone
-        Project to showcase our understanding of frontend web development
-        fundamentals, including HTML, CSS, JavaScript, React component
-        architecture, responsive design, and API integration. Each team member
-        contributed to different components and features of the project.
+        The footer was designed by 4 persons from Group 30 of CapStone Project
+        and was head by Mr Emmanuel
       </h5>
       <div className="Footer-Links">
         <ul>
