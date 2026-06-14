@@ -3,7 +3,7 @@ main {
 }
 
 footer {
-  height: 260px;
+  height: 180px;
   margin-top: auto;
   background-color: #051540;
 }
@@ -53,4 +53,20 @@ h5 {
   justify-content: end;
   margin: -25px 55px;
 }
+
+@media (min-width: 1024px) {
+  footer h5,
+  .bottom-footer p,
+  footer {
+    margin-left: 3.5rem;
+  }
+
+  .Footer-Links ul li {
+    margin-left: 3.5rem;
+  }
+
+  .left-p {
+    padding-right: 3rem;
+    text-align: start;
+  }
 }
