@@ -58,6 +58,7 @@ h5 {
   footer h5,
   .bottom-footer p,
   footer {
+  .bottom-footer p {
     margin-left: 3.5rem;
   }
 
@@ -68,5 +69,6 @@ h5 {
   .left-p {
     padding-right: 3rem;
     text-align: start;
+    padding-right: 3.5rem;
   }
 }
