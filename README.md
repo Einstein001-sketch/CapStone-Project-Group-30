@@ -9,6 +9,10 @@ Mr Oladapo Solomon
 Mr Nwachukwu Gabriel
 Miss Bliss Michael
 Miss Famuwagun Toluwalope
+Miss Efita Mercy
+Miss Famuwagun Toluwalope
+Mr Ayomide Adejoro
+Mr Egbo Avurakoghene Godbless
 
 # Tech Stack
 React
