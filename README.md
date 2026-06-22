@@ -2,18 +2,16 @@
 A Solar system-themed web application built with React and  Vite, showcasing planetary data through an intereactive and responsive interface
 
 # Team Members
-Mr Emmanue Chidera Ezechi (Team Lead)
-Mr Nwobasi Dirionye (Asst. Team Lead)
-Mr Oluwasheye Samson
-Mr Oladapo Solomon
-Mr Nwachukwu Gabriel
-Miss Bliss Michael
-Miss Famuwagun Toluwalope
-Miss Efita Mercy
-Miss Famuwagun Toluwalope
-Mr Ayomide Adejoro
-Mr Egbo Avurakoghene Godbless
+## Team Members
 
+| Name | Role | GitHub |
+|------|------|--------|
+| Emmanuel Chidera Ezechi | Team Lead / Footer | [Emmanuel](https://github.com/Einstein001-sketch) |
+| Dirionye Nwobasi | Asst. Team Lead / Header / Hero / Video | [Amaka](https://github.com/Nwobasi-Dirionye) |
+| Bliss Michael | Planetary Grid / Card Components | [Bliss](https://www.linkedin.com/in/ifeomaokocha) |
+| Toluwalope Famuwagun | Form Components | [Tolu](https://github.com/Nwobasi-Dirionye) |
+| Solomon Oladapo| Table Components | [Obasolo](https://github.com/Nwobasi-Diriony) |
+| Gabriel Nwachukwu | Deployment Team| [Gabriel](https://github.com/Nwobasi-Diriony)|
 # Tech Stack
 React
 Vite
