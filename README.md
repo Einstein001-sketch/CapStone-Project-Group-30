@@ -7,11 +7,13 @@ A Solar system-themed web application built with React and  Vite, showcasing pla
 | Name | Role | GitHub |
 |------|------|--------|
 | Emmanuel Chidera Ezechi | Team Lead / Footer | [Emmanuel](https://github.com/Einstein001-sketch) |
-| Dirionye Nwobasi | Asst. Team Lead / Header / Hero / Video | [Amaka](https://github.com/Nwobasi-Dirionye) |
-| Bliss Michael | Planetary Grid / Card Components | [Bliss](https://www.linkedin.com/in/ifeomaokocha) |
-| Toluwalope Famuwagun | Form Components | [Tolu](https://github.com/Nwobasi-Dirionye) |
-| Solomon Oladapo| Table Components | [Obasolo](https://github.com/Nwobasi-Diriony) |
-| Gabriel Nwachukwu | Deployment Team| [Gabriel](https://github.com/Nwobasi-Diriony)|
+| Dirionye Nwobasi | Asst. Team Lead / Header / Hero / Video | [Diri](https://github.com/Nwobasi-Dirionye) |
+| Bliss Michael | Planetary Grid / Card Components | [Bliss](https://github.com/gloomyb3ar20) |
+| Toluwalope Famuwagun | Form Components | [Tolu](https://github.com/Tolu19) |
+| Solomon Oladapo| Table Components | [Obasolo](https://github.com/Obasolomoney) |
+| Gabriel Nwachukwu | Deployment Team| [Gabriel](https://github.com/amgabrielweb)|
+| Ojelabi Oluwasheye Samson | Co- Author for Deployment Team| [Samson](https://github.com/Sheyman19)|
+
 # Tech Stack
 React
 Vite
